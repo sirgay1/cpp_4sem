@@ -2,11 +2,11 @@
 
 void input(Coefficients* cefs)
 {
-	cout << "Ââåäèòå êîýôôèöèåíò a" << endl;
-	cin >> cefs->a;
-	cout << "Ââåäèòå êîýôôèöèåíò b" << endl;
-	cin >> cefs->b;
-	cout << "Ââåäèòå êîýôôèöèåíò c" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾ÑÑ„Ñ„Ð¸Ñ†Ð¸ÐµÐ½Ñ‚ a" << endl;
+ 	cin >> cefs->a;
+ 	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾ÑÑ„Ñ„Ð¸Ñ†Ð¸ÐµÐ½Ñ‚ b" << endl;
+ 	cin >> cefs->b;
+ 	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾ÑÑ„Ñ„Ð¸Ñ†Ð¸ÐµÐ½Ñ‚ c" << endl;
 	cin >> cefs->c;
 
 	return;
@@ -14,7 +14,7 @@ void input(Coefficients* cefs)
 
 void output(Roots* roots, double D)
 {
-	cout << "Êîðíè óðàâíåíèÿ:" << endl;
+	cout << "ÐšÐ¾Ñ€Ð½Ð¸ ÑƒÑ€Ð°Ð²Ð½ÐµÐ½Ð¸Ñ:" << endl;
 
 	if (D > 0)
 	{
