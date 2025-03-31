@@ -17,6 +17,5 @@ set(HEADERS
 
 configure_file(tasks.txt tasks.txt COPYONLY)
 configure_file(students.txt students.txt COPYONLY)
-configure_file(results.txt results.txt COPYONLY)
 
 add_executable(MyExecutable ${SOURCES} ${HEADERS})
